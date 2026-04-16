@@ -11,7 +11,7 @@ const ParticipantNavBar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/">Add Participant</a>
+        <a class="nav-link active" aria-current="page" href="/Add">Add Participant</a>
         <a class="nav-link" href="/search">Search Participant</a>
         <a class="nav-link" href="/delete">Delete Participant</a>
         <a class="nav-link" href="/ViewAll">View all participants</a>

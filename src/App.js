@@ -5,15 +5,17 @@ import DeleteParticipant from './container/DeleteParticipant';
 import SearchParticipant from './container/SearchParticipant';
 import ViewAllParticipants from './container/ViewAllParticipants';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from './container/Login';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<AddParticipant />} />
+      <Route path="/Add" element={<AddParticipant />} />
       <Route path="/search" element={<SearchParticipant />} />
       <Route path="/delete" element={<DeleteParticipant />} />
       <Route path="/ViewAll" element={<ViewAllParticipants />} />
+      <Route path="/" element={<Login />} />
     </Routes>
     </BrowserRouter>
   );
