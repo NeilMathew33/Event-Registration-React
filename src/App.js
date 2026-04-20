@@ -6,6 +6,7 @@ import SearchParticipant from './container/SearchParticipant';
 import ViewAllParticipants from './container/ViewAllParticipants';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './container/Login';
+import SignUp from './container/SignUp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/delete" element={<DeleteParticipant />} />
       <Route path="/ViewAll" element={<ViewAllParticipants />} />
       <Route path="/" element={<Login />} />
+      <Route path="/SignUp" element={<SignUp />} />
     </Routes>
     </BrowserRouter>
   );
